@@ -18,6 +18,7 @@ namespace Sparky
             // Arrange
             calculator = new Calculator();
         }
+
         [Test]
         public void AddIntegers_InputTwoInt_GetCorrectAddition()
         {
@@ -124,7 +125,26 @@ namespace Sparky
             List<int> result = calculator.GetOddRange(4, 9);
 
             // Assert
-            Assert.That(result, Is.EquivalentTo(result));
+            // Assert.Multiple will run all of these things inside,
+            // instead of stopping at the first failed asset
+            Assert.Multiple(() => 
+            {
+                Assert.That(result, Is.EquivalentTo(expectedOddRange));
+                Assert.AreEqual(expectedOddRange, result); // equivalent
+
+                Assert.That(result, Does.Contain(7));
+                Assert.Contains(7, expectedOddRange);
+
+                Assert.That(result, Is.Not.Empty);
+
+                Assert.That(result.Count, Is.EqualTo(3));
+
+                Assert.That(result, Has.No.Member(6));
+
+                Assert.That(result, Is.Ordered.Ascending);
+
+                Assert.That(result, Is.Unique); //All elements are unique
+            });
         }
     }
 }

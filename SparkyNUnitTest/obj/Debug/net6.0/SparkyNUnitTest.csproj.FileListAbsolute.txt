@@ -99,3 +99,8 @@ C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest
 C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\Sparky.dll
 C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\Sparky.pdb
+C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\Moq.dll
+C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\964864\OneDrive - Cognizant HealthCare\Documents\Sparky\SparkyNUnitTest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
